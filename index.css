@@ -1,0 +1,58 @@
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+.nav{
+  border: blue;
+  color: blue;
+}
+.nav:hover{
+  color: black;
+}
+img{
+  float: left;
+}
+
+.photo-container {
+  display: grid;
+  grid-template-columns: 1fr 800px; /* Adjust the column widths as needed */
+  column-gap: 10px; /* Adjust the gap between columns as needed */
+  
+}
+  
+img {
+  grid-column: 1;
+  grid-row: 1;
+  height: 800px;
+  width: 600px;
+  margin-bottom: 50px;
+  
+}
+  
+.description {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 16px;
+  color: blue;
+  font-family: 'Roboto Slab', serif;
+  font-size: larger;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"]{
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+h2{
+  font-family: 'Cinzel Decorative', serif;
+}
